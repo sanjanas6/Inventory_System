@@ -18,7 +18,9 @@ app.get("/", (req, res) => {
     res.send("API Running");
 });
 
-app.listen(PORT, () => console.log("Server running on 5000"));
+app.listen(PORT, () =>
+    console.log(`Server running on ${PORT}`)
+);
 
 const entryRoutes = require("./routes/entryRoutes");
 
