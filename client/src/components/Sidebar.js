@@ -18,7 +18,7 @@ function Sidebar({ open, setOpen }) {
     { text: "Dashboard", path: "/" },
     { text: "Inventory", path: "/inventory" },
     { text: "Requests", path: "/requests" },
-    { text: "Orders", path: "/orders" },
+    { text: "Orders", path: "/orders" }
   ];
 
   return (
